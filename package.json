@@ -4,7 +4,8 @@
   "description": "LambdaSchool Mongo II: StackQuery",
   "scripts": {
     "test": "eslint tests/*.js && eslint src/*.js && mocha -R nyan tests",
-    "watch": "npm test -- --watch"
+    "watch": "npm test -- --watch",
+    "nm": "nodemon ./src/server.js"
   },
   "license": "ISC",
   "dependencies": {
@@ -18,5 +19,8 @@
     "express": "^4.15.4",
     "mocha": "^3.5.0",
     "mongoose": "^4.11.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
   }
 }
